@@ -1,0 +1,86 @@
+kafka-topics --create --topic getJobsList --partitions 1  --replication-factor 1 --bootstrap-server localhost:9092
+
+kafka-topics --create --topic response_topic --partitions 1  --replication-factor 1 --bootstrap-server localhost:9092
+
+kafka-topics --create --topic getJobSeekerDetails --partitions 1  --replication-factor 1 --bootstrap-server localhost:9092
+
+kafka-topics --create --topic updateJobSeekerDetails --partitions 1  --replication-factor 1 --bootstrap-server localhost:9092
+
+kafka-topics --create --topic listOfJobSeekersReviews --partitions 1  --replication-factor 1 --bootstrap-server localhost:9092
+
+kafka-topics --create --topic whatTypeAheadList --partitions 1  --replication-factor 1 --bootstrap-server localhost:9092
+
+kafka-topics --create --topic whereTypeAheadList --partitions 1  --replication-factor 1 --bootstrap-server localhost:9092
+
+kafka-topics --create --topic saveJob --partitions 1  --replication-factor 1 --bootstrap-server localhost:9092
+
+kafka-topics --create --topic getSaveJob --partitions 1  --replication-factor 1 --bootstrap-server localhost:9092
+
+kafka-topics --create --topic get_company_profile_by_company_id --partitions 1  --replication-factor 1 --bootstrap-server localhost:9092
+
+kafka-topics --create --topic put_company_profile_by_company_id --partitions 1  --replication-factor 1 --bootstrap-server localhost:9092
+
+kafka-topics --create --topic updateResume --partitions 1  --replication-factor 1 --bootstrap-server localhost:9092
+
+kafka-topics --create --topic deleteResume --partitions 1  --replication-factor 1 --bootstrap-server localhost:9092
+
+kafka-topics --create --topic getJobSeekerReviews --partitions 1  --replication-factor 1 --bootstrap-server localhost:9092
+
+kafka-topics --create --topic deleteReview --partitions 1  --replication-factor 1 --bootstrap-server localhost:9092
+
+kafka-topics --create --topic get_reviews_by_company_id --partitions 1  --replication-factor 1 --bootstrap-server localhost:9092
+
+kafka-topics --create --topic post_company_review --partitions 1  --replication-factor 1 --bootstrap-server localhost:9092
+
+kafka-topics --create --topic login_common --partitions 1  --replication-factor 1 --bootstrap-server localhost:9092
+
+kafka-topics --create --topic register_common --partitions 1  --replication-factor 1 --bootstrap-server localhost:9092
+
+kafka-topics --create --topic get_saved_jobs_by_jobseeker_id --partitions 1  --replication-factor 1 --bootstrap-server localhost:9092
+
+kafka-topics --create --topic delete_saved_job --partitions 1  --replication-factor 1 --bootstrap-server localhost:9092
+
+kafka-topics --create --topic get_applied_jobs_by_jobseeker_id --partitions 1  --replication-factor 1 --bootstrap-server localhost:9092
+
+kafka-topics --create --topic apply_job --partitions 1  --replication-factor 1 --bootstrap-server localhost:9092
+
+kafka-topics --create --topic admin --partitions 1  --replication-factor 1 --bootstrap-server localhost:9092
+
+kafka-topics --create --topic getMessages --partitions 1  --replication-factor 1 --bootstrap-server localhost:9092
+
+kafka-topics --create --topic getAllMessages --partitions 1  --replication-factor 1 --bootstrap-server localhost:9092
+
+kafka-topics--create --topic postReply --partitions 1  --replication-factor 1 --bootstrap-server localhost:9092
+
+kafka-topics --create --topic adminCompany --partitions 1  --replication-factor 1 --bootstrap-server localhost:9092
+
+kafka-topics --create --topic adminReview --partitions 1  --replication-factor 1 --bootstrap-server localhost:9092
+
+kafka-topics --create --topic postReview --partitions 1  --replication-factor 1 --bootstrap-server localhost:9092
+
+kafka-topics --create --topic postSalary --partitions 1  --replication-factor 1 --bootstrap-server localhost:9092
+
+kafka-topics --create --topic findCompanyReviews --partitions 1  --replication-factor 1 --bootstrap-server localhost:9092
+
+kafka-topics --create --topic adminReview --partitions 1  --replication-factor 1 --bootstrap-server localhost:9092
+
+kafka-topics --create --topic get_job_details_by_id --partitions 1  --replication-factor 1 --bootstrap-server localhost:9092
+
+
+kafka-topics --create --topic admin --partitions 1  --replication-factor 1 --bootstrap-server localhost:9092
+
+kafka-topics --create --topic get_jobs_posted_by_company --partitions 1  --replication-factor 1 --bootstrap-server localhost:9092
+
+kafka-topics --create --topic get_job_applicants_by_jobId --partitions 1  --replication-factor 1 --bootstrap-server localhost:9092
+
+kafka-topics --create --topic post_new_job --partitions 1  --replication-factor 1 --bootstrap-server localhost:9092
+
+kafka-topics --create --topic get_company_details_by_id --partitions 1  --replication-factor 1 --bootstrap-server localhost:9092
+
+kafka-topics --create --topic update_review --partitions 1  --replication-factor 1 --bootstrap-server localhost:9092
+
+kafka-topics --create --topic get_job_details_by_id --partitions 1  --replication-factor 1 --bootstrap-server localhost:9092
+
+kafka-topics --create --topic get_job_applicants_by_jobId --partitions 1  --replication-factor 1 --bootstrap-server localhost:9092
+
+bin/kafka-topics.sh --create --topic getEmployerMessages --partitions 1  --replication-factor 1 --bootstrap-server localhost:9092
